@@ -23,12 +23,14 @@ export default function HeroSection() {
               </p>
             </div>
 
-            <p className="text-lg md:text-xl leading-relaxed text-foreground/90 max-w-2xl" data-testid="text-hero-mission">
-              I contribute to building products that solve real problems and drive measurable impact.
-              Whether it's optimizing AI chip networks at Meta, scaling Tesla's energy
-              fleet, or launching ML-powered ads that generate $10M+ in revenue, I thrive
-              in small, agile teams and love taking ideas from 0 to 1.
-            </p>
+            <div className="space-y-4">
+              <p className="text-lg md:text-xl leading-relaxed text-foreground/90 max-w-2xl" data-testid="text-hero-mission">
+                I lead the technical delivery and execution of products that solve real problems and drive measurable impact. Whether scaling AI networking infrastructure at Meta, delivering fleet-wide systems at Tesla Energy, or launching ML-powered ad products generating $10M+ in revenue, I thrive in small, agile teams and take ownership from 0 to 1.
+              </p>
+              <p className="text-lg md:text-xl leading-relaxed text-foreground/90 max-w-2xl">
+                In product areas with a strong user-experience component, I also help shape strategy by defining requirements and aligning teams on what to build.
+              </p>
+            </div>
 
             <div className="flex items-center gap-4 text-sm text-muted-foreground" data-testid="text-contact-info">
               <a

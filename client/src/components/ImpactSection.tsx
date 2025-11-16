@@ -4,31 +4,31 @@ const impacts = [
   {
     metric: "$10M+",
     label: "Revenue Impact",
-    description: "Contributed to launching ML-powered personalized ads platform at Loblaw Digital, achieving 40% lift in click-through-rates",
+    description: "Led the delivery of Loblaw Digital's ML-powered personalized ads platform, achieving a 40% lift in CTR and unlocking $10M+ in new revenue.",
     company: "Loblaw Digital"
   },
   {
     metric: "1M+",
     label: "Devices Migrated",
-    description: "Helped migrate entire Tesla Energy fleet to internal OTA platform, saving engineers 300+ hours annually",
+    description: "Led the execution of Tesla Energy's migration to the internal OTA platform—streamlining update flows and saving engineers 300+ hours annually.",
     company: "Tesla Energy"
   },
   {
     metric: "$XB",
     label: "Capital Saved",
-    description: "Contributing to AI network infrastructure program projected to avoid billions in capital spend by 2030",
+    description: "Driving technical delivery across Meta's AI network infrastructure program, projected to avoid billions in capital spend by 2030.",
     company: "Meta"
   },
   {
     metric: "600+",
     label: "Automated Workflows",
-    description: "Helped build comprehensive fleet health monitoring system supporting 99% availability guarantee",
+    description: "Led implementation of scalable fleet health monitoring capabilities ensuring 99% availability across Superchargers, Megapacks, and Powerwalls.",
     company: "Tesla Energy"
   },
   {
     metric: "$5M+",
     label: "Additional Revenue",
-    description: "Contributed to launching GenAI keyword suggestions and sales attribution features for ads platform",
+    description: "Executed delivery of GenAI keyword suggestions, offline sales attribution, and predictive analytics, enabling $5M+ incremental revenue for Loblaw Digital.",
     company: "Loblaw Digital"
   }
 ];
