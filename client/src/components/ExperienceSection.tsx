@@ -4,27 +4,37 @@ const experiences = [
   {
     company: "Meta",
     dateRange: "May 2025 - Present",
-    summary: "Leading technical delivery for the software that enables thousands of MTIA chips to communicate at high speeds—from collective communication layers to datacenter-scale network paths. My responsibility spans execution across hardware, network, and platform teams, scaling everything from chip-to-chip communication to full-rack deployments."
+    summary: "Leading technical delivery for the software that enables thousands of MTIA chips to communicate at high speeds—from collective communication layers to datacenter-scale network paths. My responsibility spans execution across hardware, network, and platform teams, scaling everything from chip-to-chip communication to full-rack deployments.",
+    logo: "/logos/meta.png",
+    url: "https://www.meta.com"
   },
   {
     company: "Tesla Energy",
     dateRange: "February 2024 - April 2025",
-    summary: "Led execution for Tesla's fleet health monitoring system with 600+ automated workflows supporting 99% availability. Directed the migration of 1M+ devices to the internal OTA platform, enabling major operational savings. I defined requirements informed by data analysis and led delivery of improvements to the OTA workflow—introducing offline update flows and fail-fast mechanisms that significantly reduced site update times."
+    summary: "Led execution for Tesla's fleet health monitoring system with 600+ automated workflows supporting 99% availability. Directed the migration of 1M+ devices to the internal OTA platform, enabling major operational savings. I defined requirements informed by data analysis and led delivery of improvements to the OTA workflow—introducing offline update flows and fail-fast mechanisms that significantly reduced site update times.",
+    logo: "/logos/tesla.png",
+    url: "https://www.tesla.com/energy"
   },
   {
     company: "Loblaw Digital",
     dateRange: "July 2022 - January 2024",
-    summary: "Led the end-to-end delivery of Loblaw's ML-powered personalized ads platform in under 3 months—resulting in 40% CTR lift and $10M+ revenue. Shaped product strategy for UX-heavy features like GenAI keyword suggestion and offline sales attribution, defining requirements and partnering with design + engineering teams. Executed improvements across the data platform—distributed tracing, automated DBT pipelines, and latency-reducing infra upgrades."
+    summary: "Led the end-to-end delivery of Loblaw's ML-powered personalized ads platform in under 3 months—resulting in 40% CTR lift and $10M+ revenue. Shaped product strategy for UX-heavy features like GenAI keyword suggestion and offline sales attribution, defining requirements and partnering with design + engineering teams. Executed improvements across the data platform—distributed tracing, automated DBT pipelines, and latency-reducing infra upgrades.",
+    logo: "/logos/loblaw.png",
+    url: "https://www.loblawdigital.co"
   },
   {
     company: "General Motors",
     dateRange: "July 2021 - July 2022",
-    summary: "Led technical execution across next-gen ML features such as EV charging optimization, smart climate automation, trailer hitch prediction, and traction forecasting. Owned the ML lifecycle end-to-end—requirements, modeling, validation, and deployment—delivering 4+ features that improved UX and operational efficiency."
+    summary: "Led technical execution across next-gen ML features such as EV charging optimization, smart climate automation, trailer hitch prediction, and traction forecasting. Owned the ML lifecycle end-to-end—requirements, modeling, validation, and deployment—delivering 4+ features that improved UX and operational efficiency.",
+    logo: "/logos/gm.png",
+    url: "https://www.gm.com"
   },
   {
     company: "AltaML Inc.",
     dateRange: "May 2020 - July 2021",
-    summary: "Led delivery of 0→1 ML solutions across healthcare, energy, insurance, and technology clients. Defined requirements through user research, process mapping, and viability assessments. Managed technical execution to ensure prototypes converted into commercially viable products with clear ROI."
+    summary: "Led delivery of 0→1 ML solutions across healthcare, energy, insurance, and technology clients. Defined requirements through user research, process mapping, and viability assessments. Managed technical execution to ensure prototypes converted into commercially viable products with clear ROI.",
+    logo: "/logos/altaml.png",
+    url: "https://www.altaml.com"
   }
 ];
 
