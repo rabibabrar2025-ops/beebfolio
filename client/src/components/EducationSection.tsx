@@ -1,5 +1,4 @@
 import { Card } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
 import { GraduationCap } from "lucide-react";
 
 const education = [
@@ -7,8 +6,6 @@ const education = [
     degree: "Master of Science",
     field: "Computer Science",
     institution: "Georgia Institute of Technology",
-    status: "Currently Enrolled",
-    isCurrent: true,
     logo: "/logos/gatech.png",
     url: "https://www.gatech.edu"
   },
@@ -16,8 +13,6 @@ const education = [
     degree: "Bachelor of Science",
     field: "Petroleum Engineering",
     institution: "University of Alberta",
-    status: "Graduated June 2017",
-    isCurrent: false,
     logo: "/logos/ualberta.png",
     url: "https://www.ualberta.ca"
   }
@@ -69,17 +64,6 @@ export default function EducationSection() {
                     <p className="font-medium" data-testid="text-institution">
                       {edu.institution}
                     </p>
-                    <div className="mt-2">
-                      {edu.isCurrent ? (
-                        <Badge variant="default" data-testid="badge-status">
-                          {edu.status}
-                        </Badge>
-                      ) : (
-                        <p className="text-sm text-muted-foreground" data-testid="text-status">
-                          {edu.status}
-                        </p>
-                      )}
-                    </div>
                   </div>
                 </div>
               </div>
