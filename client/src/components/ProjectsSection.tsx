@@ -71,8 +71,8 @@ export default function ProjectsSection() {
         </div>
 
         <div className="space-y-24">
-          {projects.map((project, index) => (
-            <ProjectCard key={index} {...project} />
+          {projects.map((project) => (
+            <ProjectCard key={project.title} {...project} />
           ))}
         </div>
       </div>

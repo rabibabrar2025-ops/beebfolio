@@ -47,8 +47,8 @@ export default function ImpactSection() {
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {impacts.map((impact, index) => (
-            <ImpactCard key={index} {...impact} />
+          {impacts.map((impact) => (
+            <ImpactCard key={`${impact.metric}-${impact.label}`} {...impact} />
           ))}
         </div>
       </div>

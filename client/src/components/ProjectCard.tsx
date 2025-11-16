@@ -29,6 +29,8 @@ export default function ProjectCard({
           <img
             src={image}
             alt={title}
+            loading="lazy"
+            decoding="async"
             className="w-full h-full object-cover min-h-[300px]"
             data-testid="img-project"
           />
@@ -63,8 +65,8 @@ export default function ProjectCard({
             </div>
 
             <div className="flex flex-wrap gap-2">
-              {technologies.map((tech, index) => (
-                <Badge key={index} variant="secondary" className="text-xs" data-testid={`badge-tech-${index}`}>
+              {technologies.map((tech) => (
+                <Badge key={tech} variant="secondary" className="text-xs" data-testid={`badge-tech-${tech.toLowerCase().replace(/\s+/g, '-')}`}>
                   {tech}
                 </Badge>
               ))}
