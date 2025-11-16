@@ -10,7 +10,7 @@ export default function Footer() {
               Rabib Alam
             </h3>
             <p className="text-muted-foreground" data-testid="text-footer-title">
-              Chief Operator • Product Leader
+              Operator • Product Leader
             </p>
           </div>
 
