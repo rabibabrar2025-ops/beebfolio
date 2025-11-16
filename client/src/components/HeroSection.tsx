@@ -1,5 +1,5 @@
 import { ChevronDown } from "lucide-react";
-import profileImage from "@assets/generated_images/Professional_headshot_placeholder_a9b8e9f8.png";
+import profileImage from "@assets/generated_images/profile_picture.jpg";
 
 export default function HeroSection() {
   const scrollToImpact = () => {
