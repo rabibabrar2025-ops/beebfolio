@@ -1,12 +1,7 @@
 import { useState } from "react";
 import { Mail, Menu } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import {
-  Sheet,
-  SheetContent,
-  SheetHeader,
-  SheetTitle,
-} from "@/components/ui/sheet";
+import { Sheet, SheetContent } from "@/components/ui/sheet";
 
 interface NavigationProps {
   isDark: boolean;
@@ -91,25 +86,22 @@ export default function Navigation({ isDark, toggleTheme }: NavigationProps) {
                 Contact
               </a>
             </Button>
+            <Button
+              variant="ghost"
+              size="icon"
+              className="md:hidden"
+              onClick={() => setIsMenuOpen(true)}
+              data-testid="button-menu"
+            >
+              <Menu className="w-5 h-5" />
+            </Button>
           </div>
         </div>
       </header>
 
-      {/* Mobile hover trigger - only visible on small screens */}
-      <div
-        className="md:hidden fixed right-0 top-20 bottom-20 w-8 z-40 cursor-pointer"
-        onMouseEnter={() => setIsMenuOpen(true)}
-        onTouchStart={() => setIsMenuOpen(true)}
-      >
-        <div className="absolute right-0 top-1/2 -translate-y-1/2 w-1 h-16 bg-primary/30 rounded-l-full hover:bg-primary/50 transition-colors" />
-      </div>
-
       {/* Mobile navigation sheet */}
       <Sheet open={isMenuOpen} onOpenChange={setIsMenuOpen}>
         <SheetContent side="right" className="w-[250px] sm:w-[300px]">
-          <SheetHeader>
-            <SheetTitle>Navigation</SheetTitle>
-          </SheetHeader>
           <nav className="flex flex-col gap-4 mt-8">
             <Button
               variant="ghost"
