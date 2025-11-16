@@ -31,7 +31,7 @@ export default function HeroSection() {
             </p>
 
             <div className="flex items-center gap-4 text-sm text-muted-foreground" data-testid="text-contact-info">
-              <a 
+              <a
                 href="mailto:RabibAlamAIPM@gmail.com"
                 className="hover-elevate px-3 py-1 rounded-md"
                 data-testid="link-email"
@@ -39,7 +39,7 @@ export default function HeroSection() {
                 RabibAlamAIPM@gmail.com
               </a>
               <span>•</span>
-              <span>San Francisco, CA</span>
+              <span className="whitespace-nowrap">San Francisco, CA</span>
             </div>
           </div>
 

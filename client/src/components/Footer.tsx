@@ -25,7 +25,7 @@ export default function Footer() {
             </a>
             <div className="flex items-center gap-2 text-muted-foreground" data-testid="text-footer-location">
               <MapPin className="w-4 h-4" />
-              <span>San Francisco, CA 94158</span>
+              <span className="whitespace-nowrap">San Francisco, CA 94158</span>
             </div>
           </div>
         </div>
