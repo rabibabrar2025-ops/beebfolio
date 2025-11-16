@@ -5,4 +5,4 @@ node_modules
 *.log
 .replit
 replit.md
-attached_assets/generated_images
+**/*.heic
