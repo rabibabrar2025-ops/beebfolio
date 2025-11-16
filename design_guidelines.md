@@ -3,7 +3,7 @@
 ## Design Approach
 **Reference-Based:** Draw inspiration from executive portfolio sites like Linear's careers page, Stripe's about section, and LinkedIn's professional profiles. Focus on outcome-driven storytelling with clean, confident layouts that emphasize impact over formality.
 
-**Core Principle:** Present Rabib as a Chief Operator and Product Leader through quantifiable outcomes, business impact, and operational excellence rather than traditional job title hierarchies.
+**Core Principle:** Present Rabib as an Operator and Product Leader through quantifiable outcomes, business impact, and operational excellence rather than traditional job title hierarchies.
 
 ---
 
@@ -41,7 +41,7 @@
 ## Hero Section
 
 **Layout:** Full-viewport (min-h-screen) asymmetric split
-- Left 60%: Oversized name, executive tagline ("Chief Operator. Product Leader. AI/ML Technical Program Manager."), brief mission statement emphasizing operational impact
+- Left 60%: Oversized name, executive tagline ("Operator. Product Leader. AI/ML Technical Program Manager."), brief mission statement emphasizing operational impact
 - Right 40%: Professional headshot or abstract tech-inspired visual
 - Email contact subtle at bottom left
 - Scroll indicator at bottom center

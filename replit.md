@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is a professional portfolio website for Rabib Alam, a Chief Operator and Product Leader specializing in AI/ML infrastructure. The site presents his career through quantifiable outcomes and business impact rather than traditional job hierarchies, featuring sections for impact metrics, work experience, technical expertise, and education. The application is built as a single-page React application with a modern, executive-focused design system inspired by companies like Linear and Stripe.
+This is a professional portfolio website for Rabib Alam, an Operator and Product Leader specializing in AI/ML infrastructure. The site presents his career through quantifiable outcomes and business impact rather than traditional job hierarchies, featuring sections for impact metrics, work experience, technical expertise, and education. The application is built as a single-page React application with a modern, executive-focused design system inspired by companies like Linear and Stripe.
 
 ## User Preferences
 

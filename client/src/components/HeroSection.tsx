@@ -19,7 +19,7 @@ export default function HeroSection() {
                 Rabib Alam
               </h1>
               <p className="text-2xl md:text-3xl font-semibold text-muted-foreground" data-testid="text-hero-title">
-                Chief Operator. Product Leader.
+                Operator. Product Leader.
               </p>
             </div>
 
