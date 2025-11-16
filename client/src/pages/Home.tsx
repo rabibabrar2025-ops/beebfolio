@@ -11,9 +11,10 @@ export default function Home() {
   const [isDark, setIsDark] = useState(() => {
     if (typeof window !== "undefined") {
       const stored = localStorage.getItem("theme");
-      return stored === "dark" || (!stored && window.matchMedia("(prefers-color-scheme: dark)").matches);
+      // Default to dark mode (true) if no preference is stored
+      return stored ? stored === "dark" : true;
     }
-    return false;
+    return true; // Default to dark mode
   });
 
   useEffect(() => {
