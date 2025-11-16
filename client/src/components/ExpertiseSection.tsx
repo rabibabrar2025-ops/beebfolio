@@ -2,7 +2,7 @@ import { Badge } from "@/components/ui/badge";
 import { Card } from "@/components/ui/card";
 
 const tools = [
-  { category: "Development", items: ["Python", "SQL", "GitHub", "VSCode"] },
+  { category: "Development", items: ["Python", "SQL", "GitHub", "Cursor", "Claude Code", "Familiarity with vibecoding", "VSCode"] },
   { category: "Data & Analytics", items: ["DBeaver", "Periscope", "Splunk", "DBT"] },
   { category: "Infrastructure", items: ["AWS", "Kubernetes", "Docker"] },
   { category: "Collaboration", items: ["JIRA", "Confluence", "Postman"] }
@@ -10,10 +10,10 @@ const tools = [
 
 const interests = [
   "Building products from 0 to 1",
-  "Scaling startups with small, agile teams",
-  "Bridging product and engineering",
-  "Data-driven decision making",
-  "Working across the full stack"
+  "Leading technical execution",
+  "Bridging product strategy and engineering",
+  "Data-driven problem solving",
+  "Working across the entire stack"
 ];
 
 export default function ExpertiseSection() {
@@ -34,7 +34,7 @@ export default function ExpertiseSection() {
             Domain Experience
           </h3>
           <p className="text-foreground/90 leading-relaxed mb-6">
-            I've contributed to projects across diverse industries—from automotive at GM to energy systems at Tesla, e-commerce and ad-tech at Loblaw, and now AI infrastructure at Meta. This gives me a unique perspective on how different domains solve problems and what patterns work across the board.
+            I've led strategy and execution across multiple industries—automotive (GM), energy (Tesla), e-commerce & ad-tech (Loblaw), and AI infrastructure (Meta). This breadth gives me a unique perspective on scalable architectures and product patterns that work across domains.
           </p>
           <div className="flex flex-wrap gap-3">
             <Badge variant="outline" className="text-base px-4 py-2" data-testid="badge-domain-automotive">
@@ -57,7 +57,7 @@ export default function ExpertiseSection() {
             Full-Stack Experience
           </h3>
           <p className="text-foreground/90 leading-relaxed mb-6">
-            I've contributed to building products across the entire software stack—from frontend interfaces and ML models to backend systems, data pipelines, and now network infrastructure for custom silicon. This breadth helps me understand how all the pieces fit together and make better architectural decisions.
+            I've led delivery across the full stack—from frontend UX and ML models to backend systems, data pipelines, and custom-silicon network infrastructure. This helps me bridge technical details with product outcomes and make stronger architectural decisions.
           </p>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             {tools.map((toolGroup, index) => (
