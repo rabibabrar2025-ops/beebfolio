@@ -10,6 +10,8 @@ interface ProjectCardProps {
   technologies: string[];
   image: string;
   imagePosition: "left" | "right";
+  logo?: string;
+  url?: string;
 }
 
 export default function ProjectCard({
@@ -20,7 +22,9 @@ export default function ProjectCard({
   impact,
   technologies,
   image,
-  imagePosition
+  imagePosition,
+  logo,
+  url
 }: ProjectCardProps) {
   return (
     <Card className="overflow-hidden" data-testid={`card-project-${title.toLowerCase().replace(/\s+/g, '-')}`}>
@@ -39,8 +43,25 @@ export default function ProjectCard({
         <div className={`p-8 flex flex-col justify-center ${imagePosition === "right" ? "md:order-1" : ""}`}>
           <div className="space-y-6">
             <div>
-              <div className="text-sm text-muted-foreground mb-2" data-testid="text-company">
-                {company}
+              <div className="flex items-center gap-2 mb-2">
+                {logo && url && (
+                  <a
+                    href={url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex-shrink-0 hover:opacity-80 transition-opacity"
+                    aria-label={`Visit ${company} website`}
+                  >
+                    <img
+                      src={logo}
+                      alt={`${company} logo`}
+                      className="w-5 h-5 object-contain"
+                    />
+                  </a>
+                )}
+                <div className="text-sm text-muted-foreground" data-testid="text-company">
+                  {company}
+                </div>
               </div>
               <h3 className="text-2xl font-semibold mb-4" data-testid="text-title">
                 {title}

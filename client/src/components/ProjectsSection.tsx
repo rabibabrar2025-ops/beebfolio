@@ -13,7 +13,9 @@ const projects = [
     impact: "Projected $XB capital avoidance and X% IRR by 2030, boosting training throughput by X%",
     technologies: ["MTIA", "Network Architecture", "Performance Testing", "Automated Pipelines", "Data Center Infrastructure"],
     image: metaImage,
-    imagePosition: "left" as const
+    imagePosition: "left" as const,
+    logo: "/logos/meta.png",
+    url: "https://www.meta.com"
   },
   {
     title: "Fleet Health Monitoring System",
@@ -23,7 +25,9 @@ const projects = [
     impact: "Enabled 99% availability guarantee and proactive maintenance across entire energy portfolio",
     technologies: ["Automated Workflows", "Fleet Monitoring", "Ticketing Systems", "SQL Analytics", "Real-time Alerting"],
     image: teslaImage,
-    imagePosition: "right" as const
+    imagePosition: "right" as const,
+    logo: "/logos/tesla.png",
+    url: "https://www.tesla.com/energy"
   },
   {
     title: "Personalized Ads Platform",
@@ -33,7 +37,9 @@ const projects = [
     impact: "40% lift in CTR, $10M+ revenue increase, plus $5M from additional features",
     technologies: ["Machine Learning", "GenAI", "Data Engineering", "DBT", "Distributed Tracing", "Ad Tech"],
     image: loblawImage,
-    imagePosition: "left" as const
+    imagePosition: "left" as const,
+    logo: "/logos/loblaw.png",
+    url: "https://www.loblawdigital.co"
   },
   {
     title: "OTA Platform Migration",
@@ -43,7 +49,9 @@ const projects = [
     impact: "300+ hours saved per engineer annually, update time reduced from 60 to 35 minutes",
     technologies: ["OTA Systems", "SQL Analytics", "Process Optimization", "Firmware Deployment", "Data Visualization"],
     image: teslaImage,
-    imagePosition: "right" as const
+    imagePosition: "right" as const,
+    logo: "/logos/tesla.png",
+    url: "https://www.tesla.com/energy"
   },
   {
     title: "Vehicle R&D ML Programs",
@@ -53,7 +61,9 @@ const projects = [
     impact: "Successfully delivered multiple in-vehicle and back-office ML solutions, increasing efficiency and user satisfaction",
     technologies: ["Machine Learning", "User Journey Mapping", "Product Development", "Automotive AI", "Requirements Engineering"],
     image: gmImage,
-    imagePosition: "left" as const
+    imagePosition: "left" as const,
+    logo: "/logos/gm.png",
+    url: "https://www.gm.com"
   }
 ];
 
