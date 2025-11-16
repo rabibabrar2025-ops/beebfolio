@@ -21,9 +21,6 @@ export default function HeroSection() {
               <p className="text-2xl md:text-3xl font-semibold text-muted-foreground" data-testid="text-hero-title">
                 Chief Operator. Product Leader.
               </p>
-              <p className="text-xl md:text-2xl text-muted-foreground" data-testid="text-hero-subtitle">
-                AI/ML Technical Program Manager
-              </p>
             </div>
 
             <p className="text-lg md:text-xl leading-relaxed text-foreground/90 max-w-2xl" data-testid="text-hero-mission">
