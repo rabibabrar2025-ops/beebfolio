@@ -14,18 +14,18 @@ export default function Footer() {
             </p>
           </div>
 
-          <div className="flex flex-col gap-3 text-center md:text-right">
+          <div className="flex flex-col gap-3 text-center md:text-right w-full md:w-auto">
             <a
               href="mailto:RabibAlamAIPM@gmail.com"
-              className="flex items-center gap-2 hover-elevate px-3 py-1 rounded-md"
+              className="flex items-center justify-center md:justify-end gap-2 hover-elevate px-3 py-1 rounded-md break-all sm:break-normal"
               data-testid="link-footer-email"
             >
-              <Mail className="w-4 h-4" />
+              <Mail className="w-4 h-4 flex-shrink-0" />
               <span>RabibAlamAIPM@gmail.com</span>
             </a>
-            <div className="flex items-center gap-2 text-muted-foreground" data-testid="text-footer-location">
-              <MapPin className="w-4 h-4" />
-              <span className="whitespace-nowrap">San Francisco, CA 94158</span>
+            <div className="flex items-center justify-center md:justify-end gap-2 text-muted-foreground" data-testid="text-footer-location">
+              <MapPin className="w-4 h-4 flex-shrink-0" />
+              <span>San Francisco, CA 94158</span>
             </div>
           </div>
         </div>

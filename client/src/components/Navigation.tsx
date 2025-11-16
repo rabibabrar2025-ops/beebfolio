@@ -66,12 +66,13 @@ export default function Navigation({ isDark, toggleTheme }: NavigationProps) {
             </Button>
           </nav>
 
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-1 sm:gap-2">
             <Button
               variant="ghost"
               size="icon"
               onClick={toggleTheme}
               data-testid="button-theme-toggle"
+              className="flex-shrink-0"
             >
               {isDark ? "🌞" : "🌙"}
             </Button>
@@ -80,6 +81,7 @@ export default function Navigation({ isDark, toggleTheme }: NavigationProps) {
               size="sm"
               asChild
               data-testid="button-contact"
+              className="hidden sm:flex flex-shrink-0"
             >
               <a href="mailto:RabibAlamAIPM@gmail.com">
                 <Mail className="w-4 h-4 mr-2" />
@@ -89,7 +91,7 @@ export default function Navigation({ isDark, toggleTheme }: NavigationProps) {
             <Button
               variant="ghost"
               size="icon"
-              className="md:hidden"
+              className="md:hidden flex-shrink-0"
               onClick={() => setIsMenuOpen(true)}
               data-testid="button-menu"
             >

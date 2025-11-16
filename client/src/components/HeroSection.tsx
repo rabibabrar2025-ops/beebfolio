@@ -32,16 +32,16 @@ export default function HeroSection() {
               </p>
             </div>
 
-            <div className="flex items-center gap-4 text-sm text-muted-foreground" data-testid="text-contact-info">
+            <div className="flex flex-wrap items-center gap-2 md:gap-4 text-sm text-muted-foreground" data-testid="text-contact-info">
               <a
                 href="mailto:RabibAlamAIPM@gmail.com"
-                className="hover-elevate px-3 py-1 rounded-md"
+                className="hover-elevate px-3 py-1 rounded-md break-all sm:break-normal"
                 data-testid="link-email"
               >
                 RabibAlamAIPM@gmail.com
               </a>
-              <span>•</span>
-              <span className="whitespace-nowrap">San Francisco, CA</span>
+              <span className="hidden sm:inline">•</span>
+              <span>San Francisco, CA</span>
             </div>
           </div>
 
