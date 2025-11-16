@@ -63,10 +63,10 @@ export default function ProjectsSection() {
       <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
         <div className="space-y-4 mb-16">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-semibold" data-testid="text-section-title">
-            Featured Projects
+            Projects I'm Proud Of
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl" data-testid="text-section-description">
-            Major initiatives driving measurable business outcomes
+            The big initiatives that made a real difference
           </p>
         </div>
 

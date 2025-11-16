@@ -27,10 +27,10 @@ export default function HeroSection() {
             </div>
 
             <p className="text-lg md:text-xl leading-relaxed text-foreground/90 max-w-2xl" data-testid="text-hero-mission">
-              Driving operational excellence and measurable business impact through
-              data-driven product development. From optimizing AI infrastructure at
-              Meta to scaling Tesla's energy fleet, I build systems that deliver
-              $10M+ revenue increases and manage 1M+ device deployments.
+              I build products that solve real problems and drive measurable impact.
+              Whether it's optimizing AI chip networks at Meta, scaling Tesla's energy
+              fleet, or launching ML-powered ads that generate $10M+ in revenue, I thrive
+              in small, agile teams and love taking ideas from 0 to 1.
             </p>
 
             <div className="flex items-center gap-4 text-sm text-muted-foreground" data-testid="text-contact-info">

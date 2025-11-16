@@ -4,52 +4,27 @@ const experiences = [
   {
     company: "Meta",
     dateRange: "May 2025 - Present",
-    achievements: [
-      "Leading program management of AI network infrastructure software enabling thousands of MTIA chips to share data at high-speed across collective communication and transport layers",
-      "Program projected to avoid $XB in capital spend and deliver X% IRR by 2030 while reducing reliance on third-party vendor stacks",
-      "Coordinating hardware, network, and AI platform teams to scale data paths from chip-to-chip to rack-wide and cross-rack deployments, boosting large-model training throughput by X%",
-      "Building automated test & measurement pipelines ensuring end-to-end latency, bandwidth, and reliability targets from chip to data-centre level"
-    ]
+    summary: "I'm building the software that lets thousands of MTIA chips talk to each other at blazing speeds—from the collective communication layer down to the high-speed network paths connecting racks across data centers. This work is projected to save billions in capital while reducing our dependence on third-party vendors. I coordinate across hardware, network, and AI platform teams to scale everything from chip-to-chip connections to full rack deployments, and I build the automated testing pipelines that prove our latency, bandwidth, and reliability targets are met."
   },
   {
     company: "Tesla Energy",
     dateRange: "February 2024 - April 2025",
-    achievements: [
-      "Led program management for Tesla's fleet health monitoring tool housing 600+ automated ticketing workflows for Superchargers, Megapacks, and Powerwalls, improving fleet health and supporting 99% availability guarantee",
-      "Migrated 1M+ energy devices to Tesla's internal OTA platform, enabling large-scale rollouts that saved each service engineer 300+ hours annually",
-      "Optimized industrial fleet OTA processes for Megapacks through SQL-driven data analysis, implementing offline update and fail-fast capabilities to reduce average site update time from 60 to 35 minutes",
-      "Managed SDLC artifacts across a team of 100+ firmware, software, and test engineers spanning multiple product verticals"
-    ]
+    summary: "I built Tesla's fleet health monitoring system with 600+ automated workflows that keep Superchargers, Megapacks, and Powerwalls running at 99% availability. I also migrated 1M+ devices to our internal OTA platform, which saved every service engineer 300+ hours a year. By diving into SQL analytics, I optimized our Megapack update process and cut the average site update time from 60 minutes down to 35—implementing offline updates and fail-fast mechanisms that made a real difference for teams in the field."
   },
   {
     company: "Loblaw Digital",
     dateRange: "July 2022 - January 2024",
-    achievements: [
-      "Launched ML-based personalized ads for Loblaw's e-commerce sites within 3 months, resulting in 40% lift in click-through-rates and $10M+ increase in ad revenues",
-      "Launched additional performance features: GenAI keyword suggestions, offline sales attribution, complementary ads model, and predictive analytics, unlocking $5M in additional annualized revenue",
-      "Enhanced ad tech data engineering stack by implementing distributed tracing for latency issues, automating transformation scripts with DBT, and strengthening data pipeline alerts",
-      "Expanded ads platform to pharmaceutical entity (Shoppers Drug Mart) serving search and category-based sponsored products"
-    ]
+    summary: "I launched Loblaw's ML-powered personalized ads platform in under 3 months, driving a 40% boost in click-through rates and over $10M in new revenue. I also shipped GenAI keyword suggestions, offline sales attribution, and predictive analytics that unlocked another $5M annually. On the infrastructure side, I enhanced our data engineering stack with distributed tracing to fix latency issues, automated transformation pipelines with DBT, and built stronger alerting systems."
   },
   {
     company: "General Motors",
     dateRange: "July 2021 - July 2022",
-    achievements: [
-      "Led Vehicle R&D projects including EV battery charging optimization, smart climate control, automatic trailer hitching, and predicting road/tire traction",
-      "Managed ML-powered product development lifecycle from discovery sessions to detailed backlog creation, successfully executing 4+ small-to-medium complexity projects",
-      "Analyzed user-generated metrics and incorporated continuous improvements, increasing user engagement and satisfaction",
-      "Collaborated with multidisciplinary teams to design solution architecture for back-office process augmentation and in-vehicle projects"
-    ]
+    summary: "I worked on next-gen vehicle features including EV battery charging optimization, smart climate control, automatic trailer hitching, and road traction prediction. I owned the full ML product lifecycle—from initial discovery and business cases to shipping working solutions—delivering 4+ projects that improved user experience and operational efficiency across GM's vehicle platform."
   },
   {
     company: "AltaML Inc.",
     dateRange: "May 2020 - July 2021",
-    achievements: [
-      "Led machine learning solutions through complete PDLC - developing proof of concept models, integrating MVPs, and working with product teams for commercialization",
-      "Defined requirements and scope using user stories, process mapping, and functional requirements gathering",
-      "Conducted ML viability assessments and ROI analysis with stakeholders to maximize business impact",
-      "Led ML programs from 0 to 1 for enterprise clients across healthcare, energy, tech, insurance, and construction verticals"
-    ]
+    summary: "I took ML projects from 0 to 1 for enterprise clients across healthcare, energy, tech, insurance, and construction. This meant building POCs, integrating MVPs, and working closely with product teams to commercialize solutions. I defined requirements through user stories and process mapping, ran viability assessments, and made sure every project had strong ROI and real business impact."
   }
 ];
 
@@ -59,10 +34,10 @@ export default function ExperienceSection() {
       <div className="max-w-5xl mx-auto px-6 md:px-12 lg:px-20">
         <div className="space-y-4 mb-12">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-semibold" data-testid="text-section-title">
-            Experience
+            Where I've Worked
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl" data-testid="text-section-description">
-            Building transformative products and driving operational excellence
+            From startups to big tech, here's what I've been building
           </p>
         </div>
 

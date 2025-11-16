@@ -1,19 +1,14 @@
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { useState } from "react";
-import { ChevronDown, ChevronUp } from "lucide-react";
-import { Button } from "@/components/ui/button";
 
 interface ExperienceCardProps {
   company: string;
   dateRange: string;
-  achievements: string[];
+  summary: string;
   index: number;
 }
 
-export default function ExperienceCard({ company, dateRange, achievements, index }: ExperienceCardProps) {
-  const [isExpanded, setIsExpanded] = useState(index === 0);
-
+export default function ExperienceCard({ company, dateRange, summary, index }: ExperienceCardProps) {
   return (
     <Card className="relative" data-testid={`card-experience-${company.toLowerCase().replace(/\s+/g, '-')}`}>
       <div className="p-8 space-y-4">
@@ -26,26 +21,11 @@ export default function ExperienceCard({ company, dateRange, achievements, index
               {dateRange}
             </Badge>
           </div>
-          <Button
-            variant="ghost"
-            size="icon"
-            onClick={() => setIsExpanded(!isExpanded)}
-            data-testid="button-toggle-expand"
-          >
-            {isExpanded ? <ChevronUp className="w-5 h-5" /> : <ChevronDown className="w-5 h-5" />}
-          </Button>
         </div>
 
-        {isExpanded && (
-          <ul className="space-y-3 mt-6">
-            {achievements.map((achievement, idx) => (
-              <li key={idx} className="flex gap-3 text-foreground/90 leading-relaxed" data-testid={`text-achievement-${idx}`}>
-                <span className="text-primary mt-1.5">•</span>
-                <span>{achievement}</span>
-              </li>
-            ))}
-          </ul>
-        )}
+        <p className="text-foreground/90 leading-relaxed text-lg mt-6" data-testid="text-summary">
+          {summary}
+        </p>
       </div>
 
       {index > 0 && (

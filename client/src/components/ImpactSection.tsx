@@ -26,12 +26,6 @@ const impacts = [
     company: "Tesla Energy"
   },
   {
-    metric: "42%",
-    label: "Efficiency Gain",
-    description: "Optimized Megapack OTA processes, reducing average update time from 60 to 35 minutes",
-    company: "Tesla Energy"
-  },
-  {
     metric: "$5M+",
     label: "Additional Revenue",
     description: "Launched GenAI keyword suggestions and sales attribution features for ads platform",
@@ -45,10 +39,10 @@ export default function ImpactSection() {
       <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-20">
         <div className="space-y-4 mb-12">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-semibold" data-testid="text-section-title">
-            Impact & Achievements
+            Impact
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl" data-testid="text-section-description">
-            Measurable outcomes that define operational excellence
+            Here's what I've built and the impact it's had
           </p>
         </div>
 
