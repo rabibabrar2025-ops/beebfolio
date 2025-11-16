@@ -29,12 +29,12 @@ export default function ExpertiseSection() {
           </p>
         </div>
 
-        <Card className="mb-8 p-8 bg-primary/5 border-primary/20">
+        <Card className="mb-8 p-8 hover-elevate transition-all duration-300">
           <h3 className="text-xl font-semibold mb-4" data-testid="text-domains-title">
             Domain Experience
           </h3>
           <p className="text-foreground/90 leading-relaxed mb-6">
-            I've worked across diverse industries—from automotive at GM to energy systems at Tesla, e-commerce and ad-tech at Loblaw, and now AI infrastructure at Meta. This gives me a unique perspective on how different domains solve problems and what patterns work across the board.
+            I've contributed to projects across diverse industries—from automotive at GM to energy systems at Tesla, e-commerce and ad-tech at Loblaw, and now AI infrastructure at Meta. This gives me a unique perspective on how different domains solve problems and what patterns work across the board.
           </p>
           <div className="flex flex-wrap gap-3">
             <Badge variant="outline" className="text-base px-4 py-2" data-testid="badge-domain-automotive">
@@ -52,12 +52,12 @@ export default function ExpertiseSection() {
           </div>
         </Card>
 
-        <Card className="mb-8 p-8">
+        <Card className="mb-8 p-8 hover-elevate transition-all duration-300">
           <h3 className="text-xl font-semibold mb-4" data-testid="text-stack-title">
             Full-Stack Experience
           </h3>
           <p className="text-foreground/90 leading-relaxed mb-6">
-            I've built products across the entire software stack—from frontend interfaces and ML models to backend systems, data pipelines, and now network infrastructure for custom silicon. This breadth lets me understand how all the pieces fit together and make better architectural decisions.
+            I've contributed to building products across the entire software stack—from frontend interfaces and ML models to backend systems, data pipelines, and now network infrastructure for custom silicon. This breadth helps me understand how all the pieces fit together and make better architectural decisions.
           </p>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             {tools.map((toolGroup, index) => (
@@ -77,7 +77,7 @@ export default function ExpertiseSection() {
           </div>
         </Card>
 
-        <Card className="p-8">
+        <Card className="p-8 hover-elevate transition-all duration-300">
           <h3 className="text-xl font-semibold mb-4" data-testid="text-interests-title">
             What Drives Me
           </h3>

@@ -10,7 +10,7 @@ interface ExperienceCardProps {
 
 export default function ExperienceCard({ company, dateRange, summary, index }: ExperienceCardProps) {
   return (
-    <Card className="relative" data-testid={`card-experience-${company.toLowerCase().replace(/\s+/g, '-')}`}>
+    <Card className="relative hover-elevate transition-all duration-300 cursor-default" data-testid={`card-experience-${company.toLowerCase().replace(/\s+/g, '-')}`}>
       <div className="p-8 space-y-4">
         <div className="flex flex-wrap items-start justify-between gap-4">
           <div className="space-y-2">

@@ -27,7 +27,7 @@ export default function HeroSection() {
             </div>
 
             <p className="text-lg md:text-xl leading-relaxed text-foreground/90 max-w-2xl" data-testid="text-hero-mission">
-              I build products that solve real problems and drive measurable impact.
+              I contribute to building products that solve real problems and drive measurable impact.
               Whether it's optimizing AI chip networks at Meta, scaling Tesla's energy
               fleet, or launching ML-powered ads that generate $10M+ in revenue, I thrive
               in small, agile teams and love taking ideas from 0 to 1.

@@ -9,7 +9,7 @@ interface ImpactCardProps {
 
 export default function ImpactCard({ metric, label, description, company }: ImpactCardProps) {
   return (
-    <Card className="p-8 space-y-4" data-testid={`card-impact-${label.toLowerCase().replace(/\s+/g, '-')}`}>
+    <Card className="p-8 space-y-4 hover-elevate transition-all duration-300 cursor-default" data-testid={`card-impact-${label.toLowerCase().replace(/\s+/g, '-')}`}>
       <div className="space-y-2">
         <div className="text-4xl md:text-5xl font-bold text-primary" data-testid="text-metric">
           {metric}

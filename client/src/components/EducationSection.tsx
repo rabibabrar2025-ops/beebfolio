@@ -31,7 +31,7 @@ export default function EducationSection() {
 
         <div className="grid md:grid-cols-2 gap-8">
           {education.map((edu, index) => (
-            <Card key={index} className="p-8 relative" data-testid={`card-education-${index}`}>
+            <Card key={index} className="p-8 relative hover-elevate transition-all duration-300 cursor-default" data-testid={`card-education-${index}`}>
               <div className="flex items-start gap-4">
                 <div className="p-3 rounded-lg bg-primary/10">
                   <GraduationCap className="w-6 h-6 text-primary" />

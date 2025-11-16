@@ -53,14 +53,6 @@ export default function Navigation({ isDark, toggleTheme }: NavigationProps) {
           <Button
             variant="ghost"
             size="sm"
-            onClick={() => scrollToSection("projects")}
-            data-testid="link-projects"
-          >
-            Projects
-          </Button>
-          <Button
-            variant="ghost"
-            size="sm"
             onClick={() => scrollToSection("education")}
             data-testid="link-education"
           >
